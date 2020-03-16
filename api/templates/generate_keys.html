@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html>
+    <head>  
+        <title>Gerar chaves</title>  
+    </head>  
 <body>
-
-<h1>Generate RSA keys</h1>
-
-<label for="size">Choose the size of the RSA key:</label>
-
-<form action = "#" method = "post">
-    <input type="radio" id="1024" name="size" value="1024">
-    <label for="1024">1024 bits</label><br>
-    <input type="radio" id="2048" name="size" value="2048">
-    <label for="2048">2048 bits</label><br>
-
-    <br>
-
-    <input type = "submit" value="Generate"> 
-</form>
+    <p><a href="http://127.0.0.1:5000/">Index</a></p>
+    <h1>Gerar RSA keys</h1>
+    <label for="size">Selecione o tamanho da chave:</label>
+    <form action = "#" method = "post">
+        <input type="radio" id="1024" name="size" value="1024" checked="checked">
+        <label for="1024">1024 bits</label><br>
+        <input type="radio" id="2048" name="size" value="2048">
+        <label for="2048">2048 bits</label><br>
+        <br>
+        <input type = "submit" value="Generate">
+    </form>
   
 </body>
 </html>
